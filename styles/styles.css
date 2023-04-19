@@ -1,3 +1,7 @@
+.cta {
+  background-color: #d30832 !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,13 +38,71 @@
 }
 
 .wrapper-div .navbar {
-  background-color: #0D1128 !important;
+  background-color: #1B9CE3 !important;
 }
 
-.wrapper-div .hero-section p {
+.wrapper-div .hero-section .typing {
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
   font-family: monospace !important;
   font-size: 1.7rem;
   font-weight: 900;
   color: #1B9CE3 !important;
+}
+
+.wrapper-div .hero-section .typed-cursor {
+  display: none;
+}
+
+.wrapper-div .services h3 {
+  color: #171197;
+  font-weight: 700;
+}
+
+.wrapper-div .services .desc {
+  color: #A9A9A9 !important;
+  font-weight: 600;
+}
+
+.wrapper-div .services .our-services .row .col {
+  border-right: 1px solid #E9EBEF;
+  height: 300px;
+}
+
+.wrapper-div .services .our-services .row .col i {
+  color: #1B9CE3;
+}
+
+.wrapper-div .services .our-services .row .col h3 {
+  color: #0D1128;
+}
+
+.wrapper-div .services .our-services .row .col p {
+  color: #A9A9A9 !important;
+}
+
+.wrapper-div .services .our-services .row .col:hover {
+  background-color: #1B9CE3 !important;
+}
+
+.wrapper-div .services .our-services .row .col:hover i, .wrapper-div .services .our-services .row .col:hover h3, .wrapper-div .services .our-services .row .col:hover p {
+  color: #E9EBEF !important;
+}
+
+.wrapper-div .footer-display {
+  background-color: #F5F5F5;
+}
+
+.wrapper-div .footer-display .contact .icon-para i {
+  width: 20px;
+}
+
+.wrapper-div .footer-display .info ul li, .wrapper-div .footer-display .account ul li, .wrapper-div .footer-display .cust-service ul li {
+  list-style: none;
+}
+
+.wrapper-div footer p {
+  background-color: #1B9CE3;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
