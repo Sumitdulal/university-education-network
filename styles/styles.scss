@@ -1,5 +1,8 @@
 $coloryellow : #FFC502;
 $colorblue : #171197;
+.ms-8 {
+    margin-left: ($spacer * .25) !important;
+  }
 
 * {
     margin: 0;
@@ -16,7 +19,13 @@ $colorblue : #171197;
     .top-part {
         height: 80px;
         // background-color: $colorblue;
-
+        .name{
+            
+                    font-size: 1.25rem;
+                    font-weight: 900;
+                
+            
+        }
         .ph-email {
             // background-color: $coloryellow;
 

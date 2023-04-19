@@ -11,6 +11,11 @@
   height: 80px;
 }
 
+.wrapper-div .top-part .name {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
 .wrapper-div .top-part .ph-email .phone {
   font-weight: 600;
 }
