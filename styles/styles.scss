@@ -67,18 +67,20 @@ $colorblue : #171197;
         }
     }
     .hero-section{
-        .typing-demo {
+        
             
 
           
           
         p{
-            
-            font-size: 2rem;
+            font-family: monospace !important;
+            font-size: 1.7rem;
             font-weight: 900;
             color: #1B9CE3 !important;
-            animation: type 2.5s steps(50) infinite;
+            
             
         }
+        
+        
     }
 }
