@@ -14,6 +14,7 @@
 .wrapper-div .top-part .name {
   font-size: 1.25rem;
   font-weight: 900;
+  color: #171197;
 }
 
 .wrapper-div .top-part .ph-email .phone {
@@ -36,8 +37,45 @@
   background-color: #0D1128 !important;
 }
 
-.wrapper-div .slide .carousel-inner .carousel-item img {
-  width: 100%;
-  height: 500px;
+.wrapper-div .hero-section .typing-demo {
+  -webkit-animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+          animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.wrapper-div .hero-section p {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1B9CE3 !important;
+  -webkit-animation: type 2.5s steps(50) infinite;
+          animation: type 2.5s steps(50) infinite;
 }
 /*# sourceMappingURL=styles.css.map */

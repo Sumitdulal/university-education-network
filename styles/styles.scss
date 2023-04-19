@@ -1,8 +1,6 @@
 $coloryellow : #FFC502;
 $colorblue : #171197;
-.ms-8 {
-    margin-left: ($spacer * .25) !important;
-  }
+
 
 * {
     margin: 0;
@@ -18,12 +16,12 @@ $colorblue : #171197;
    
     .top-part {
         height: 80px;
-        // background-color: $colorblue;
+        
         .name{
             
                     font-size: 1.25rem;
                     font-weight: 900;
-                
+                    color: $colorblue;
             
         }
         .ph-email {
@@ -68,16 +66,19 @@ $colorblue : #171197;
             }
         }
     }
-    .slide{
-        .carousel-inner{
-            .carousel-item{
-                img{
-                    width: 100%;
-                    height: 500px;
-                    
-    
-                }
-            }
+    .hero-section{
+        .typing-demo {
+            
+
+          
+          
+        p{
+            
+            font-size: 2rem;
+            font-weight: 900;
+            color: #1B9CE3 !important;
+            animation: type 2.5s steps(50) infinite;
+            
         }
     }
 }
