@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.wrapper-div .top-part {
+  height: 80px;
+}
+
+.wrapper-div .top-part .ph-email .phone {
+  font-weight: 600;
+}
+
+.wrapper-div .top-part .ph-email .phone i {
+  color: #1B9CE3 !important;
+}
+
+.wrapper-div .top-part .ph-email .email {
+  font-weight: 600;
+}
+
+.wrapper-div .top-part .ph-email .email i {
+  color: #1B9CE3 !important;
+}
+
+.wrapper-div .navbar {
+  background-color: #0D1128 !important;
+}
+
+.wrapper-div .slide .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 500px;
+}
+/*# sourceMappingURL=styles.css.map */

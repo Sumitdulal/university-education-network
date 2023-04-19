@@ -1,0 +1,74 @@
+$coloryellow : #FFC502;
+$colorblue : #171197;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+   
+    
+}
+
+.wrapper-div {
+   
+    .top-part {
+        height: 80px;
+        // background-color: $colorblue;
+
+        .ph-email {
+            // background-color: $coloryellow;
+
+            .phone {
+                font-weight: 600;
+                i{
+                    color: #1B9CE3 !important;
+                }
+            }
+
+            .email {
+                font-weight: 600;
+                i{
+                    color: #1B9CE3 !important;
+                }
+            }
+        }
+
+        .social {
+            // color: #fff;
+
+        }
+    }
+
+    .navbar {
+        background-color: #0D1128 !important;
+        
+        .container-fluid {
+
+
+            .navbar {
+
+                .container {
+
+                    .navbar-brand {
+
+                        img {}
+                    }
+                }
+            }
+        }
+    }
+    .slide{
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    width: 100%;
+                    height: 500px;
+                    
+    
+                }
+            }
+        }
+    }
+}
